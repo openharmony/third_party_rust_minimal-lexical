@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "minimal-lexical",
+    "License": "Apache License 2.0, MIT",
+    "License File": "LICENSE-APACHE|LICENSE-MIT",
+    "Version Number": "0.2.1",
+    "Owner": "fangting12@huawei.com",
+    "Upstream URL": "https://github.com/Alexhuszagh/minimal-lexical",
+    "Description": "A Rust library that provides a minimal and fast implementation of string to number conversions."
+  }
+]
