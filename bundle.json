@@ -1,0 +1,34 @@
+{
+  "name": "@ohos/rust_minimal_lexical",
+  "description": "A Rust library that provides a minimal and fast implementation of string to number conversions",
+  "version": "6.1",
+  "license": "Apache License 2.0",
+  "publishAs": "code-segment",
+  "segment": {
+    "destPath": "third_party/rust/crates/minimal-lexical"
+  },
+  "dirs": {},
+  "scripts": {},
+  "readmePath": {
+    "en": "README.md"
+  },
+  "component": {
+    "name": "rust_minimal_lexical",
+    "subsystem": "thirdparty",
+    "adapted_system_type": [
+      "standard"
+    ],
+    "deps": {
+      "components": []
+    },
+    "build": {
+      "sub_component": [],
+      "inner_kits": [
+        {
+          "name": "//third_party/rust/crates/minimal-lexical:lib"
+        }
+      ],
+      "test": []
+    }
+  }
+}
